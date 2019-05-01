@@ -41,7 +41,7 @@ $monospace: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 $primary: #BF6000;
 $site-bg: #FFF;
 $site-text: #000;
-$site-text-grey: #ccc;
+$site-text-grey: #666;
 
 $code-bg: $primary;
 $kbd-color: $site-bg;
@@ -50,7 +50,7 @@ $code-color: $site-bg;
 
 $black: #000;
 $white: #fff;
-$gray: #595959;
+$gray: $site-text-grey;
 
 // responsive
 $mobile-width: 767px;
