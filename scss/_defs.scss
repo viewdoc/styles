@@ -38,14 +38,14 @@ $sans-serif: 'Inter UI', sans-serif; //'Lucida Sans', 'Lucida Grande', 'Lucida S
 $monospace: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
 // colors
-$primary: #F9C412;
-$site-bg: rgb(24, 24, 24);
-$site-text: #eee;
+$primary: #BF6000;
+$site-bg: #FFF;
+$site-text: #000;
 $site-text-grey: #ccc;
 
-$code-bg: #2d2d2d;
-$kbd-color: #7ec699;
-$code-color: #e2777a;
+$code-bg: $primary;
+$kbd-color: $site-bg;
+$code-color: $site-bg;
 
 
 $black: #000;
