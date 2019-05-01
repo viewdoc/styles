@@ -25,17 +25,12 @@
 // sizes
 $em: 18px;
 
-@import url('https://rsms.me/inter/inter-ui.css');
-html { font-family: 'Inter UI', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter UI var alt', sans-serif; }
-}
- 
+$system-font: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 
 // fonts
-$serif: 'Inter UI', sans-serif;//'Century Schoolbook', serif;
-$sans-serif: 'Inter UI', sans-serif; //'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
-$monospace: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+$serif: $system-font;
+$sans-serif: $system-font;
+$monospace: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
 
 // colors
 $primary: #BF6000;
