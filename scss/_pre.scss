@@ -33,7 +33,7 @@ pre {
   color: $code-color;
   font-family: $monospace;
   code:not([class]) {
-    padding: bs(1);
+    padding: 0 !important;
     overflow-x: scroll;
   }
 }
